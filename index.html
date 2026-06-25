@@ -60,4 +60,148 @@
 
         /* Contentor Principal */
         .container {
-            max-width: 95
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #0d47a1;
+            border-left: 5px solid #ffeb3b;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+
+        /* Lista de Regras */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e3f2fd;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #1565c0;
+        }
+
+        ul li strong {
+            color: #0d47a1;
+        }
+
+        /* Tabela de Posições */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+
+        table, th, td {
+            border: 1px solid #cfd8dc;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0d47a1;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #212121;
+            color: white;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Voleibol: Energia e Trabalho de Equipa</h1>
+        <p>Descubra a história, as regras essenciais e as posições deste desporto dinâmico.</p>
+    </header>
+
+    <nav>
+        <a href="#historia">História</a>
+        <a href="#regras">Regras Essenciais</a>
+        <a href="#posicoes">Posições em Campo</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="historia">
+            <h2>História do Voleibol</h2>
+            <p>O voleibol foi inventado em <strong>1895 por William G. Morgan</strong> nos Estados Unidos. O seu objetivo original era criar um desporto de equipa com menos contacto físico do que o basquetebol, para evitar lesões. Inicialmente chamado de <em>"Mintonette"</em>, o jogo rapidamente ganhou popularidade mundial e tornou-se uma modalidade olímpica oficial em 1964.</p>
+        </section>
+
+        <section id="regras">
+            <h2>Regras Essenciais</h2>
+            <p>O funcionamento básico do voleibol baseia-se nos seguintes pontos:</p>
+            <ul>
+                <li><strong>O Objetivo:</strong> Fazer a bola tocar no chão da quadra adversária ou forçar o adversário a lançá-la para fora.</li>
+                <li><strong>Toques por Equipa:</strong> Cada equipa pode dar no máximo 3 toques na bola antes de a passar para o outro lado (o bloco não conta como toque). Um jogador não pode tocar na bola duas vezes seguidas.</li>
+                <li><strong>Pontuação:</strong> As partidas são jogadas à melhor de 5 sets. Os primeiros 4 sets vão até aos 25 pontos (com vantagem de 2 pontos). Se houver empate, o 5º set (Tie-Break) vai até aos 15 pontos.</li>
+                <li><strong>Rotação:</strong> Sempre que uma equipa recupera o direito de servir, os seus jogadores rodam uma posição no sentido dos ponteiros do relógio.</li>
+            </ul>
+        </section>
+
+        <section id="posicoes">
+            <h2>Posições e Funções dos Jogadores</h2>
+            <p>Numa equipa de voleibol, cada jogador desempenha um papel estratégico bem definido:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posição / Função</th>
+                        <th>Descrição das Atividades Principais</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Distribuidor (Levantador)</strong></td>
+                        <td>É o cérebro da equipa. Responsável por armar as jogadas e fazer o segundo toque para os atacantes.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Líbero</strong></td>
+                        <td>Especialista em defesa e receção. Usa uma camisola de cor diferente e não pode atacar nem servir.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Central (Bloqueador)</strong></td>
+                        <td>Geralmente o jogador mais alto. Ataca bolas rápidas no meio e foca-se em bloquear os ataques adversários.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Oposto</strong></td>
+                        <td>O principal pontuador da equipa. Posiciona-se na diagonal do distribuidor e foca-se exclusivamente no ataque.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ponteiro (Zona 4)</strong></td>
+                        <td>Participa ativamente na receção do serviço (passe) e nos ataques pelas pontas da rede.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Página Informativa sobre Voleibol. Criada em HTML5 e CSS3.</p>
+    </footer>
+
+</body>
+</html>
